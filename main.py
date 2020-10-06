@@ -1,0 +1,30 @@
+a = 3       #ASIGNAR 3 A LA VARIABLE a
+b = a + 5       #ASIGNAR a + 5 A LA VARIABLE B ==> b = 8
+
+#APARTADO 1
+print (b)       #IMPRIMIR VALOR DE b (8)
+
+#APARTADO 2
+a = 7       #ASIGNAR VALOR 7 A LA VARIABLE a
+print (b)       #IMPRIMIR VALOR DE b (8) - EL VALOR NO VARÍA PORQUE NO HEMOS MODIFICADO b
+
+#APARTADO 3
+#AMBOS SON TIPO INT. NÚMEROS ENTEROS
+
+#APARTADO 4
+a = 5.0     #ASIGNAMOS 5.0 A LA VARIABLE a
+b = a + 5       #ASIGNAMOS a + 5 A LA VARIABLE b == b = 5.0 + 5 = 10.0
+
+#EL VALOR DE a SE HA CONVERTIDO EN UNO DE TIPO float (REAL). AL OPERARLO CON LA VARIABLE b, int (entero)
+#EL RESULTADO ES UNO DE TIPO float (REAL)
+
+print (b)       #IMPRIMIR VALOR DE b (10.0)
+
+#APARTADO 5
+b = b + 1       #ASIGNAR A LA VARIABLE b EL VALOR DE b + 1
+print (b)       #IMPRIMIR b (10.0 + 1 = 11.0)
+
+#APARTADO 6
+a = "Hola "     #ASIGNAR CADENA "Hola " A LA VARIABLE a
+b = "Mundo"     #ASIGNAR CADENA "Mundo" A LA VARIABLE b
+print (a+b)     #IMPRIMIR a+b. CONCATENAR CADENAS ==> "Hola " + "Mundo" = "Hola Mundo"
